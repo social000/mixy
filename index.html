@@ -279,10 +279,10 @@ button{
  <div class="musicbox" onclick="dblessBC()">
  <img src="img/IMG-20230729-WA0003.jpg">
  <p>
- <audio id="dbless_bc" src="mp3/D Bless_-_Boom Choir.mp3"></audio>
+ <audio id="dbless_bc" src="mp3/D Bless_-_Boom Choir(Pro by Swagger Swagger).mp3"></audio>
  <b>D bless - Boom Choir</b>
  <i id="mcheck">(play now)</i><br><br>
- <a href="mp3/D Bless_-_Boom Choir.mp3" >Download</a>
+ <a href="mp3/D Bless_-_Boom Choir(Pro by Swagger Swagger).mp3" >Download</a>
  </p>
  </div>
  <!--musicList-->
@@ -335,8 +335,15 @@ function lakshaSF(){
 }
 
 function dblessBC(){  
- if(count == 0){count = 1;dbless_bc.play();mcheck.innerHTML = "(Playing...)";}
- else{count = 0;dbless_bc.pause();mcheck.innerHTML = "(Pause...)";} 
+ if(count == 0){
+ count = 1;
+ dbless_bc.play();
+ mcheck.innerHTML = "(Playing...)";
+ }
+ else{
+ count = 0;
+ dbless_bc.pause();
+ mcheck.innerHTML = "(Pause...)";} 
 }
 
 
